@@ -10,5 +10,5 @@ const myInfo = {
 const { id, myName: { firstName, lastName } } = myInfo;
 const numbers = [1, 2, 34, 5, 7];
 const [, a, ...rest] = numbers;
-console.log(numbers);
+console.log(rest);
 export {};
