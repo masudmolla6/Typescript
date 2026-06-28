@@ -20,3 +20,9 @@ const myInfo:MyInfo={
     department:"Nothing",
     contact:"0135454566",
 }
+
+type Add=(num1:number, num2:number)=> number;
+
+const add:Add=(num1, num2)=>{
+    return num1+num2;
+}
