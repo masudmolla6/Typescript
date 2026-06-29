@@ -1,4 +1,4 @@
-// type asseriton
+// type assertion
 
 let anything:any;
 
