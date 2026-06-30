@@ -32,7 +32,18 @@ type GenericTuple<x,y>=[x,y];
 
 type GenericTupleWithUserId<x,y>=[x,y];
 
-const userWithId:GenericTupleWithUserId<number,{myName:string, id:number}>=[
+// const userWithId:GenericTupleWithUserId<number,{myName:string, id:number}>=[
+//     12,{
+//         myName:"Masud Rana",
+//         id:34,
+//     }
+
+interface Info{
+    myName:string,
+    id:number,
+}
+
+const userWithId:GenericTupleWithUserId<number,Info>=[
     12,{
         myName:"Masud Rana",
         id:34,
