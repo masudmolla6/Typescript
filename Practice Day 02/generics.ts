@@ -25,7 +25,16 @@ const user:genericArrayOfObject<{name:string, id:number}>=[
 // Generic Tuple
 type GenericTuple<x,y>=[x,y];
 
-const myInfo:genericArray<string, number>=[{
-    myName:"Masud Rana",
-    contact:3465767
-}]
+// const myInfo:GenericTuple<string,number>=[
+//     "Masud Rana",
+//     3465767
+// ]
+
+type GenericTupleWithUserId<x,y>=[x,y];
+
+const userWithId:GenericTupleWithUserId<number,{myName:string, id:number}>=[
+    12,{
+        myName:"Masud Rana",
+        id:34,
+    }
+]
