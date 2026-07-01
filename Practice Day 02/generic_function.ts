@@ -32,9 +32,9 @@
 
 // // console.log(products);
 
-// function getFirstElement<T>(arr:T[]):T | undefined{
-//     return arr[0];
-// }
+function getFirstElement<T>(arr:T[]):T | undefined{
+    return arr[0];
+}
 
 // // const result6=getFirstElement([1, 2, 3]);
 // // const result6=getFirstElement(["a", "b", "c"]);
