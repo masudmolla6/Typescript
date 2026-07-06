@@ -55,3 +55,9 @@ const getToDo=async()=>{
 }
 
 getToDo();
+
+function orderPizza() {
+    return new Promise((resolve, reject) => {
+        
+    });
+}
